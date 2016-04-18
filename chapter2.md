@@ -9,4 +9,8 @@ java.lang.IllegalStateException: Can not perform this action after onSaveInstanc
 	at android.support.v4.app.BackStackRecord.commit(BackStackRecord.java:613)
 ```
 
-本文将介绍这种异常出现的原因，以及如何避免出现这样的一场。
+
+## 异常出现的原因
+
+
+这种异常出现在尝试去commit a FragmentTransaction
